@@ -1,0 +1,38 @@
+{
+    "name": "PrimeBot",
+    "version": "10.0.0",
+    "description": "WhatsApp Bot Multifungsi",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "npm install && node index.js"
+    },
+    "author": "WARUNGERIK",
+    "license": "MIT",
+    "engines": {
+        "node": "20"
+    },
+    "dependencies": {
+        "@hapi/boom": "^10.0.1",
+        "@whiskeysockets/baileys": "latest",
+        "adm-zip": "^0.5.12",
+        "axios": "^1.7.2",
+        "chalk": "4.1.2",
+        "discord.js": "^14.22.1",
+        "file-type": "^16.5.4",
+        "form-data": "^4.0.0",
+        "jimp": "latest",
+        "js-confuser": "^2.0.0",
+        "moment-timezone": "^0.5.45",
+        "node-fetch": "^2.7.0",
+        "node-os-utils": "^1.3.7",
+        "node-schedule": "^2.1.1",
+        "package.json": "^2.0.1",
+        "pino": "^8.21.0",
+        "readline": "^1.3.0",
+        "ruhend-scraper": "*",
+        "ssh2": "^1.15.0",
+        "wa-sticker-formatter": "^4.4.4",
+        "yt-search": "^2.11.0"
+    }
+}
